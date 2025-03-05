@@ -6,9 +6,35 @@ h1 {
 
 body {
     background-color: grey;
+    margin: 0;
+}
+
+img {
+    padding-top: 3.5em;
 }
 
 .container{
+    align-items: center;
     display: flex;
     justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+ul > li {
+    padding: 0.55rem;
+    letter-spacing: 0.50rem;
+}
+
+a {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    color: gold;
+    text-decoration: none;
+    padding-bottom: 2.2em;
+    letter-spacing: 1rem;
 }
