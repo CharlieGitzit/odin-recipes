@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 20px;
     background-color: black;
     color: gold;
@@ -7,26 +7,37 @@ body {
 
 h1 {
     text-align: center;
+    letter-spacing: 1.2rem;
+    font-style: italic;
 }
 
-h2, h3 {
-    font-style: italic;
+h2 {
     font-family:'Courier New', Courier, monospace;
+    padding-top: 25px;
+}
+
+h1, h2, h3 {
+    text-shadow: 1.8px 1.5px whitesmoke;
 }
 
 img {
     display: block;
     margin: 0 auto;
     border-radius: 30px 30px;
-    padding-top: 20px;
+    padding-top: 20px
+}
+
+.first {
+    padding-top: 3.5em;
 }
 
 .guts{
     text-align: right;
+    font-weight: bold;
 }
 
-.items {
-    font-weight: bold;
+.guts, .container {
+    padding-bottom: 3.0rem;
 }
 
 ul > li {
@@ -40,11 +51,15 @@ ul > li {
     font-weight: bold;
 }
 
+.foot {
+    text-align: center;
+}
+
 a {
     color: goldenrod;
     text-decoration: none;
     font-size: 1.3rem;
-    padding-bottom: 15px;
+    padding: 3rem 0;
 }
 
 a:hover {
