@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.main {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.intro {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+}
+
+.one {
+    display: flex;
+    flex-direction: flex-end;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+
+.para {
+    margin-top: 3rem;
+}
+
+.para-two {
+    margin-top: 3rem;
+}
+
+ul > li {
+    list-style: none;
+}
