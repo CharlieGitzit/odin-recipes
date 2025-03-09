@@ -23,7 +23,7 @@ h1, h2, h3 {
 img {
     display: block;
     margin: 0 auto;
-    border-radius: 30px 30px;
+    border-radius: 125px 0;
     padding-top: 20px
 }
 
