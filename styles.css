@@ -42,14 +42,14 @@ ul > li {
 }
 
 a {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 22px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 27px;
     font-style: italic;
     font-weight: bold;
     color: gold;
     text-decoration: none;
     padding-bottom: 2.2em;
-    letter-spacing: 1rem;
+    letter-spacing: 0.45rem;
     text-shadow: 3px 2.5px black;
 }
 
