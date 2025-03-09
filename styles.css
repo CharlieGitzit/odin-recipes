@@ -10,6 +10,18 @@ body {
     margin: 0 auto;
 }
 
+.recipes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 45px;
+}
+
 img {
     padding-top: 3.5em;
     padding-left: 80px;
@@ -39,4 +51,9 @@ a {
     padding-bottom: 2.2em;
     letter-spacing: 1rem;
     text-shadow: 3px 2.5px black;
+}
+
+a:hover {
+    text-shadow: 3px 2.5px gold;
+    color: black;
 }
